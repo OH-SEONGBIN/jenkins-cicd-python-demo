@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/OH-SEONGBIN/my-python-project.git'
+                git 'https://github.com/OH-SEONGBIN/jenkins-cicd-python-demo.git'
             }
         }
         stage('Install Dependencies') {
