@@ -131,6 +131,9 @@ commit,tests,passed,failures,errors,skipped,pass_ratio,junit_time_sec,coverage_p
 
 <img width="663" height="85" alt="jenkins_2_copy" src="https://github.com/user-attachments/assets/1fddcaac-e57c-4535-8572-324407f9e07c" />
 
+> 7/7 pass, coverage 100%, test runtime 2.92s → 2.15s(–26%) (pytest-xdist, 캐시)
+
+
 ```text
 7,7,0,0,0,100.0,2.15,100.0,8
 ```
