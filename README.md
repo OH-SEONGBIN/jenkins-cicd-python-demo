@@ -127,15 +127,19 @@ python tools/ci_metrics.py \
 ```sql
 commit,tests,passed,failures,errors,skipped,pass_ratio,junit_time_sec,coverage_pct,lint_count
 ```
-샘플(예시):
+결과:
+
+<img width="663" height="85" alt="jenkins_2_copy" src="https://github.com/user-attachments/assets/1fddcaac-e57c-4535-8572-324407f9e07c" />
+
 ```text
 7,7,0,0,0,100.0,2.15,100.0,8
 ```
+
 - pass_ratio(%): 테스트 성공률
 - junit_time_sec: 총 테스트 시간(초)
 - coverage_pct(%): 커버리지
 - lint_count: flake8 경고/에러 건수(간단 집계)
-> PR 본문에 “2.92s → 2.15s(-26%), Cov 100% 유지, Pass 100%” 처럼 전/후 비교 수치를 붙이면 평가자에게 강한 인상을 줍니다.
+
 
 ---
 
